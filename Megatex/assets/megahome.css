@@ -1,0 +1,355 @@
+.homeheader {
+  background-color: #ffc01f;
+  padding: 10px 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.homefotersocials {
+}
+.homefotersocial {
+  margin-right: 10px;
+}
+
+.homenav {
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logotohome{
+  text-decoration: none;
+  color: #282828;
+}
+.homenavlogos {
+  display: flex;
+  gap: 5px;
+}
+.homenavmenu {
+  color: #353535;
+  text-decoration: none;
+  margin-right: 2vw;
+}
+.homenavlang {
+  color: #353535;
+  text-decoration: none;
+}
+.homelangrm {
+  border-right: 2px solid #353535;
+  padding-right: 5px;
+}
+.texarrowdown {
+  &:hover {
+    color: #ffc01f;
+  }
+}
+.homefirstpart {
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  position: relative;
+}
+.homefirstparts {
+  width: 48%;
+}
+.homefirstleft {
+  padding: calc(20px + 2vw);
+}
+.homefirstlefth1 {
+  color: #596c72;
+  font-size: 4vw;
+  margin: 0;
+}
+.homefirstleftp1 {
+  color: #353535;
+  font-size: 1.5vw;
+  margin-top: 20px;
+}
+.homefirstlefta1 {
+  color: #353535;
+  padding: 10px 35px;
+  border: 1px solid #353535;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.homefirstrightimg {
+  max-width: 100%;
+}
+.firstappositecircle {
+  width: 23vw;
+  position: absolute;
+  left: -5%;
+  top: 0;
+  z-index: -1;
+}
+
+.homemainpart {
+  width: 92%;
+  margin: 0 auto;
+}
+.homecategory {
+}
+.hcategorymainname {
+  font-size: 3vw;
+  color: #596c72;
+}
+
+.categoryname {
+  font-size: calc(10px + 1vw);
+  margin: 0 auto;
+  width: fit-content;
+}
+.categoryimg {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.homebanner1 {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.sinaqdankecmisimg1 {
+  margin: 0 auto;
+  padding: 5vw;
+  object-fit: cover;
+}
+.sinaqdankecmisimg {
+  width: 100%;
+}
+.sinaqdankecmisdiv {
+  padding: 2vw;
+}
+.hbannerh1 {
+  color: #596c72;
+  font-size: calc(16px + 2vw);
+}
+.hbanner1a {
+  padding: 10px 20px;
+  color: #353535;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.texnikalar {
+  padding: calc(30px + 5vw) 0px;
+  position: relative;
+}
+.htexdiv {
+  padding: 20px;
+}
+.hteximg {
+  width: 100%;
+}
+.htexp1 {
+  color: #596c72;
+  font-size: 19px;
+}
+.htexp2 {
+  color: #686868;
+}
+.htexyear {
+  color: #b0adad;
+}
+.htexprice {
+  font-size: 18px;
+  color: #ffc01f;
+  padding: 20px 10px;
+}
+.texprice1 {
+  width: 80%;
+  text-align: end;
+}
+.htexa1 {
+  padding: 10px calc(10px + 6vw);
+  color: #353535;
+  border: 1px solid #353535;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.texlookall {
+  color: #353535;
+  background-color: #ffc01f;
+  border: 1px solid #ffc01f;
+  border-radius: 20px;
+  padding: 10px 20px;
+  position: absolute;
+  left: 46%;
+  bottom: 10px;
+}
+
+.homemiddlepart {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.markalar {
+  padding: calc(20px + 2vw) 0px;
+}
+.markah1 {
+  font-size: 30px;
+  color: #596c72;
+  text-align: center;
+  padding: 20px;
+}
+.markadiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+.marka1 {
+  padding: 10px;
+}
+
+.yenilikler {
+  width: 92%;
+  margin: 0 auto;
+  padding: calc(20px + 5vw) 0px;
+}
+.yeniliklerh1 {
+  font-size: 30px;
+  color: #596c72;
+  padding: 20px 0px;
+}
+.yenilikimg {
+  width: 100%;
+}
+.yenilikproph {
+  padding: 15px;
+}
+.yenilikp1 {
+  font-size: calc(10px + 1vw);
+  color: #191919;
+}
+.yenilikp2 {
+  font-size: 14px;
+  color: #69768b;
+}
+.yenilikprophlast {
+  display: flex;
+  justify-content: space-between;
+}
+.yenilikdate {
+  color: #69768b;
+  padding: 10px 0px;
+}
+.yenilikarrow {
+  :hover {
+    color: #3d70e6;
+  }
+}
+.yenarrow {
+  color: #ffc01f;
+}
+
+.contactus {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10vw;
+  position: relative;
+}
+.contactform {
+  background-color: #efefef;
+  padding: calc(20px + 3vw) calc(20px + 2vw);
+}
+
+.hcontactdiv {
+  width: 40%;
+}
+
+.contactinputs {
+  width: 100%;
+  margin: 0 auto;
+}
+.contactinp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.inp {
+  width: 47%;
+  border-radius: 20px;
+  padding: 10px;
+}
+.contactbutton {
+  width: 100%;
+  color: #ffff;
+  padding: 10px;
+  background-color: #ffc01f;
+  border-radius: 20px;
+  border: #ffc01f;
+  margin-top: 20px;
+}
+.contactimg {
+  width: 100%;
+}
+.contactimgpos {
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  div.contactimgpos {
+    display: none;
+  }
+  div.hcontactdiv {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.hseotext {
+  font-size: 16px;
+  height: 20px;
+  margin-left: 10px;
+}
+.whyusbasliq {
+  display: flex;
+  align-items: end;
+}
+
+.footerlogo {
+  display: flex;
+}
+.footerlogoimg {
+  width: 30px;
+}
+.footerp1 {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.footerdiv2 {
+  display: flex;
+  flex-direction: column;
+}
+.homefooter {
+  background-image: url(./homeImages/hfooterback.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: calc(20px + 3vw) 10px 20px 20px;
+  color: #353535;
+}
+.hfootera {
+  margin-bottom: 10px;
+  color: #353535;
+  text-decoration: none;
+}
+.hfootersocial {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.hfooterend {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(20px + 1vw);
+}

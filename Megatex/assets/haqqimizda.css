@@ -1,0 +1,223 @@
+
+.homeheader {
+    background-color: #ffc01f;
+    padding: 10px 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .homefotersocials {
+  }
+  .homefotersocial {
+    margin-right: 10px;
+  }
+  
+  .homenav {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logogotohome{
+    color: #282828;
+    text-decoration: none;
+  }
+  .homenavlogos {
+    display: flex;
+    gap: 5px;
+  }
+  .homenavmenu {
+    color: #353535;
+    text-decoration: none;
+    margin-right: 2vw;
+  }
+  .homenavlang {
+    color: #353535;
+    text-decoration: none;
+  }
+  .homelangrm {
+    border-right: 2px solid #353535;
+    padding-right: 5px;
+  }
+  .texarrowdown {
+    &:hover {
+      color: #ffc01f;
+    }
+  }
+  .homefirstpart {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    position: relative;
+  }
+
+.aboutgoto{
+ margin-left: calc(10px + 3vw);
+ margin-top: calc(10px + 3vw);
+}
+  .aboutgotos{
+    color: #686868;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+  .aboutgotohome{
+    color: #ADADAD;
+    text-decoration: none;
+  }
+  .aboutgotoabout{
+    color: #596C72;
+    text-decoration: none;
+  }
+
+  .aboutmegatex{
+    text-align: center;
+    padding: calc(20px + 5vw) 20px;
+    position: relative;
+  }
+
+  .megatexh1{
+   font-size: calc(30px + 5vw);
+   color: #596C72;
+  }
+  .megatexp1{
+    font-size: 20px;
+    color: #FFC01F;
+  }
+  .megatexp2{
+    width: calc(400px + 20vw);
+    margin: 0 auto;
+    color: #353535;
+  }
+
+  .megatexcircls{
+    position: absolute;
+  }
+
+  .circ1{
+ left: 30px;
+ top: 30px;
+  }
+  .circ2{
+    left: 30px;
+    top: calc(40px + 5vw);
+  }
+  .circ3{
+  left: calc(30px + 5vw);
+  bottom: 20px;
+  }
+  .circ4{
+right: calc(30px + 5vw);
+top: 30px;
+  }
+  .circ5{
+    right: calc(30px + 5vw);
+    top: 40%;
+  }
+  .circ6{
+ right: 30px;
+ bottom: 20%;
+  }
+
+  @media screen and (max-width: 900px) {
+    img.megatexcircls {
+      display: none;
+    }
+  }
+
+.aboutfirstimage{
+  width: 92%;
+  margin: 0 auto;
+}
+.aboutfirstimage>img{
+  width: 100%;
+}
+.aboutfirstbanner{
+  width: 92%;
+  margin: 0 auto;
+  padding: calc(20px + 5vw) 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: calc(1vw);
+}
+.abannerrightpart{ 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.abannerleftimg,
+.abannerrightimg{
+  border: 1px solid 
+  rgba(149, 149, 149, 0.25);
+  padding: 15px;
+}
+
+.abannerproph{
+  width: 80%;
+ margin: 0 auto;
+}
+.abannerh1 {
+  color: #596c72;
+  font-size: calc(16px + 2vw);
+}
+.abannerp1{
+color: #353535;
+}
+
+
+.aboutwhyus{
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: calc(20px + 3vw) 0px;
+}
+.whyuspart1{
+  width: 46%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.footerlogo {
+  display: flex;
+}
+.footerlogoimg {
+  width: 30px;
+}
+.footerp1 {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.footerdiv2 {
+  display: flex;
+  flex-direction: column;
+}
+.homefooter {
+  background-image: url(./homeImages/footerback.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: calc(20px + 3vw) 10px 20px 20px;
+  color: #353535;
+}
+.hfootera {
+  margin-bottom: 10px;
+  color: #353535;
+  text-decoration: none;
+}
+.hfootersocial {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.hfooterend {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(20px + 1vw);
+}

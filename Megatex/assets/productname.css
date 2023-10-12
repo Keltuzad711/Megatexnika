@@ -1,0 +1,260 @@
+.homeheader {
+    background-color: #ffc01f;
+    padding: 10px 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .homefotersocials {
+  }
+  .homefotersocial {
+    margin-right: 10px;
+  }
+  
+  .homenav {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logogotohome{
+    color: #282828;
+    text-decoration: none;
+  }
+  .homenavlogos {
+    display: flex;
+    gap: 5px;
+  }
+  .homenavmenu {
+    color: #353535;
+    text-decoration: none;
+    margin-right: 2vw;
+  }
+  .homenavlang {
+    color: #353535;
+    text-decoration: none;
+  }
+  .homelangrm {
+    border-right: 2px solid #353535;
+    padding-right: 5px;
+  }
+  .texarrowdown {
+    &:hover {
+      color: #ffc01f;
+    }
+  }
+  
+  .texnikafirstpart {
+    margin: 0 auto;
+  }
+  
+  .aboutgoto {
+    margin-left: calc(10px + 3vw);
+    margin-top: calc(10px + 3vw);
+  }
+  .aboutgotos {
+    color: #686868;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+  .aboutgotohome {
+    color: #adadad;
+    text-decoration: none;
+  }
+  .aboutgotoabout {
+    color: #596c72;
+    text-decoration: none;
+  }
+
+  .productmainpart1{
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: calc(20px +3vw) 0px;
+  }
+
+  .productphotos{
+    display: flex;
+    flex-direction: column;
+    padding: calc(30px + 3vw) 20px;
+  }
+  .prodfoto{
+   max-width: 90px;
+    max-height: 90px;
+  }
+  .productitself{
+    padding: calc(30px + 3vw) 20px;
+    max-width: 45%;
+  }
+
+  .productproph{
+    width: 40%;
+    padding: calc(30px + 3vw) 20px;
+  }
+  .prodname{
+    color: #596C72;
+    font-size: 20px;
+  }
+  .prodyear{
+    color: #B0ADAD;
+  }
+  .prodlorem{
+    color: #69768B;
+    padding: calc(20px + 1vw) 0px;
+    min-width: 200px;
+  }
+  .prodtype{
+    color: #686868;
+    font-size: 14px;
+  }
+  .prodrent1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .prodrenttime{
+    color: #596C72;
+    font-size: 18px;
+  }
+
+  .prodrentprice{
+    color: #ffc01f;
+    font-size: 18px;
+  }
+  .rentbuttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rentbut{
+    font-size: 14px;
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
+    color: #353535;
+    text-decoration: none;
+    background-color: #ffc01f;
+    padding: 10px;
+    border: 1px solid #ffc01f;
+    border-radius: 20px;
+  }
+  @media screen and (max-width: 700px) {
+    div.productphotos {
+      display: none;
+    }
+    div.productmainpart1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.productproph {
+        width: 92%;
+    }
+  }
+.productmainpart2{
+    width: 92%;
+    margin: 0 auto;
+    padding: calc(20px +3vw) 0px;
+}
+  .similartexp{
+    color: #596C72;
+    font-size: 30px;
+  }
+
+  .texnikabox {
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+  }
+  
+  .texboximg {
+    width: 100%;
+  }
+  
+  .texboxname {
+    padding: 10px 20px;
+  }
+  
+  .mehsulunadi{
+    text-decoration: none;
+    color: #596C72;
+  }
+  .texboxp1 {
+    font-size: 20px;
+    color: #596c72;
+  }
+  .texboxp2 {
+    font-size: 17px;
+    color: #686868;
+  }
+  .texboxp3 {
+    font-size: 14px;
+    color: #b0adad;
+  }
+  .texrent {
+    color: #ffc01f;
+    text-align: end;
+    margin-right: calc(20px + 2vw);
+  }
+  .texicareet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texicareeta {
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: #353535;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+.alltexa{
+  text-decoration: none;
+}
+  .alltex{
+    font-size: 14px;
+    color: #596C72;
+    padding: calc(10px + 2vw) 20px;
+    text-align: end;
+  }
+
+  .footerlogo {
+    display: flex;
+  }
+  .footerlogoimg {
+    width: 30px;
+  }
+  .footerp1 {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  .footerdiv2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .homefooter {
+    background-image: url(./homeImages/footerback.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: calc(20px + 3vw) 10px 20px 20px;
+    color: #353535;
+  }
+  .hfootera {
+    margin-bottom: 10px;
+    color: #353535;
+    text-decoration: none;
+  }
+  .hfootersocial {
+    margin-right: 15px;
+    margin-top: 20px;
+  }
+  .hfooterend {
+    display: flex;
+    justify-content: space-between;
+    padding-top: calc(20px + 1vw);
+  }
+  
